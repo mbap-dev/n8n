@@ -25,3 +25,5 @@ RUN cd ~/.n8n/nodes && npm i n8n-nodes-data-validation
 RUN cd ~/.n8n/nodes && npm i n8n-nodes-evolution-api
 
 RUN cd ~/.n8n/nodes && npm i n8n-nodes-oracle-database-parameterization
+
+RUN cd ~/.n8n/nodes && npm i @skriptfabrik/n8n-nodes-barcode
