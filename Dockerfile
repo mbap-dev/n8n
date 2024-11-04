@@ -1,4 +1,4 @@
-FROM n8nio/n8n:1.63.4
+FROM n8nio/n8n:1.65.2
 
 ENV N8N_PAYLOAD_SIZE_MAX=32
 
@@ -26,4 +26,4 @@ RUN cd ~/.n8n/nodes && npm i n8n-nodes-evolution-api
 
 RUN cd ~/.n8n/nodes && npm i n8n-nodes-oracle-database-parameterization
 
-RUN cd ~/.n8n/nodes && npm i @skriptfabrik/n8n-nodes-barcode
+# RUN cd ~/.n8n/nodes && npm i @skriptfabrik/n8n-nodes-barcode
