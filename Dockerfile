@@ -8,6 +8,8 @@ USER root
 
 USER node
 
+RUN npm install -g easy-pdf-merge
+
 RUN mkdir -p ~/.n8n/nodes
 
 RUN cd ~/.n8n/nodes && npm i n8n-nodes-text-manipulation
