@@ -8,7 +8,7 @@ USER root
 
 USER node
 
-RUN npm install -g easy-pdf-merge
+RUN npm install --save easy-pdf-merge
 
 RUN mkdir -p ~/.n8n/nodes
 
