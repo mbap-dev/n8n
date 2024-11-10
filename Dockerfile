@@ -6,9 +6,9 @@ ENV GENERIC_TIMEZONE=America/Sao_Paulo
 
 USER root
 
-USER node
+RUN npm install -g easy-pdf-merge
 
-RUN npm install --save easy-pdf-merge
+USER node
 
 RUN mkdir -p ~/.n8n/nodes
 
