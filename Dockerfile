@@ -1,4 +1,4 @@
-FROM n8nio/n8n:1.70.1
+FROM n8nio/n8n:1.71.3
 
 ENV N8N_PAYLOAD_SIZE_MAX=32
 
